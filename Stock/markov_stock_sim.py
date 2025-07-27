@@ -200,7 +200,7 @@ def main():
 
     # --- Sidebar Inputs ---
     st.sidebar.header("1. Input Data")
-    tickers_input = st.sidebar.text_input("Enter Ticker(s) (comma-separated)", "TSLA, BTC-USD")
+    tickers_input = st.sidebar.text_input("Enter Ticker(s) (comma-separated)", "TSLA")
     end_date, start_date = date.today(), st.sidebar.date_input("Start Date", date.today() - timedelta(days=2*365))
     end_date_input = st.sidebar.date_input("End Date", end_date)
 
