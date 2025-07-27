@@ -1,0 +1,8 @@
+streamlit
+yfinance
+cryptocompare
+pandas
+numpy
+matplotlib
+seaborn
+altair 
